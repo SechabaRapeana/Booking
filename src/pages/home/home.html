@@ -1,0 +1,43 @@
+<ion-content class = "bg">
+  <div class="img">
+    <img src ="../assets/imgs/images.png" >
+    
+  </div>
+<div class = "container">
+    
+    <ion-list>
+            <ion-item class ="item" no-lines>
+              <ion-icon name="mail-outline" item-left></ion-icon>
+                <ion-label stacked>email</ion-label>
+                <ion-input type="email" placeholder="Enter email"  [(ngModel)]="user.email"></ion-input>
+                <ion-label class="line" ></ion-label>
+              </ion-item>
+
+
+              <ion-item class ="item" no-lines>
+                  <ion-icon name="lock-outline" item-left> </ion-icon>
+                  <ion-label stacked>PASSWORD</ion-label>
+                <ion-input type="password" placeholder="*******"  [(ngModel)]="user.password"></ion-input>
+                <button ion-button  item-right clear  class = "btnH"> Help</button>
+                <ion-label class="line" ></ion-label>
+              </ion-item>
+
+
+      </ion-list>
+
+      
+    </div>
+  
+      <div class ="btnDiv" >
+        
+      <button ion-button color="light" outline round block large class ="btn" (click)="signIn(user)">Sign In</button>
+      
+    </div>
+
+<div>
+    <p>DON'T HAVE AN ACCOUNT? <button  class ="btnSignUp" clear item-end (click)="signUp()">SIGN UP</button></p>
+  </div>
+
+  
+  
+</ion-content>

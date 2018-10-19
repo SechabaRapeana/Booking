@@ -1,0 +1,64 @@
+page-home {
+    img{
+     
+        margin-top:90px;
+        float: center;
+        border-radius: 100%;
+    }
+
+    .bg{
+        background: linear-gradient(to bottom, #abb0b6,#2f2f31);
+        align-items: center;
+        text-align: center;
+    }
+
+    .container{
+        // margin-top: 100px;
+    }
+     .item{
+        background-color: transparent;
+    }
+
+
+  .btnDiv{
+    margin-left:50px;
+    margin-right:50px;
+    padding:1px;
+  }
+
+    .btn{
+       font-size: 15px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+    }
+
+    .btnSignUp{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(0,0,0,0)
+
+    }
+
+    .btnH{
+        background-color: transparent;
+        color:whitesmoke
+    }
+    p{
+        color: white;
+        margin-left:50px;
+        margin-top: 25px;
+        padding:1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .line{
+        position: fixed;
+        left:10%;
+        bottom: -10%;
+        width: 80%;
+        border-bottom: solid 1px rgba(247, 247, 247, 0.363);
+   
+     
+    }
+
+}

@@ -1,0 +1,36 @@
+<!--
+  Generated template for the ReviewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Review</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class = "bg">
+  <h6 align ="center">You chose to Book {{name}} </h6>
+<br> <br>
+<h6>when would you like to book him</h6>
+  <ion-item class="item">
+    <ion-datetime placeholder="Date" displayFormat="DD MMM YYYY"  [(ngModel)]="date" required="required" ></ion-datetime>
+    </ion-item>
+
+    <br>
+    <br> <br>
+    <h6>Select the hours you would like to book him for </h6>
+    <ion-item>
+      <ion-select [(ngModel)]="hour">
+          <ion-option value="1hour">1 hour</ion-option>
+          <ion-option value="2hours">2 hours</ion-option>
+          <ion-option value="3hours+">3 hours +</ion-option>
+      </ion-select>
+      </ion-item>
+      <br> <br> <br>
+      <button ion-button color="light" outline round block large class ="btn" (click)="toConfirn()"> Confirm</button>
+</ion-content>
